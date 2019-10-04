@@ -10,6 +10,6 @@ echo $log;
 echo $pwd;
 mail($to, $subject, $message, $headers);
 
-
+echo "success";
 
 ?>
